@@ -1,0 +1,16 @@
+2024-04-12 17:35:05 [game] - initializing game
+2024-04-12 17:35:37 [game] - starting game
+2024-04-12 17:35:38 [grid] - robert has moved to 1
+2024-04-12 17:35:38 [game] - next turn
+2024-04-12 17:35:38 [grid] - robert has moved to 2
+2024-04-12 17:35:38 [game] - next turn
+2024-04-12 17:35:38 [grid] - robert has moved to 3
+2024-04-12 17:35:38 [game] - next turn
+2024-04-12 17:35:38 [grid] - robert has moved to 4
+2024-04-12 17:35:38 [game] - next turn
+2024-04-12 17:35:39 [grid] - robert has moved to 5
+2024-04-12 17:35:39 [game] - next turn
+2024-04-12 17:35:54 [game] - next turn
+2024-04-12 17:36:00 [game] - next turn
+2024-04-12 17:38:32 [dice] - Rolled an 10
+2024-04-12 17:38:47 [game] - initializing game

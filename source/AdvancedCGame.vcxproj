@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>16.0</VCProjectVersion>
+    <Keyword>Win32Proj</Keyword>
+    <ProjectGuid>{466b8670-3e5a-4285-89d8-ae4bc4b855fd}</ProjectGuid>
+    <RootNamespace>MapGenerator</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+    <ProjectName>AdvancedCGame</ProjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <!--debug and Doxygen stuff -->
+  <!--<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <PostBuildEventUseInBuild>false</PostBuildEventUseInBuild>
+  </PropertyGroup>-->
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>$(SolutionDir)</AdditionalIncludeDirectories>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+    <PostBuildEvent>
+      <Command>doxygen "$(ProjectDir)docs\$(ProjectName).doxyfile"</Command>
+    </PostBuildEvent>
+    <PostBuildEvent>
+      <Message>Generates Doxygen documentation after each build event.</Message>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClInclude Include="battle.h" />
+    <ClInclude Include="campaign.h" />
+    <ClInclude Include="CharacterDirector.h" />
+    <ClInclude Include="dice.h" />
+    <ClInclude Include="FighterType.h" />
+    <ClInclude Include="globalFunctions.h" />
+    <ClInclude Include="items\itemIO.h" />
+    <ClInclude Include="logger\logger.h" />
+    <ClInclude Include="logger\loggerObserver.h" />
+    <ClInclude Include="map\gridObserver.h" />
+    <ClInclude Include="itemContainer.h" />
+    <ClInclude Include="items\armor.h" />
+    <ClInclude Include="items\belt.h" />
+    <ClInclude Include="items\boots.h" />
+    <ClInclude Include="items\helmet.h" />
+    <ClInclude Include="items\item.h" />
+    <ClInclude Include="items\ring.h" />
+    <ClInclude Include="items\shield.h" />
+    <ClInclude Include="items\weapon.h" />
+    <ClInclude Include="map\grid.h" />
+    <!--<ClInclude Include="map\GridObserver.h" />-->
+    <ClInclude Include="map\playerController.h" />
+    <ClInclude Include="map\tile.h" />
+    <ClInclude Include="npc\attackNpcStrategy.h" />
+    <ClInclude Include="npc\defensiveNpcStrategy.h" />
+    <ClInclude Include="npc\friendlyNpcStrategy.h" />
+    <ClInclude Include="npc\npcController.h" />
+    <ClInclude Include="npc\npcStrategy.h" />
+    <ClInclude Include="observer.h" />
+    <ClInclude Include="play.h" />
+    <ClInclude Include="Player\Attribute.h" />
+    <ClInclude Include="player\character.h" />
+    <ClInclude Include="player\CharacterBuilder.h" />
+    <ClInclude Include="player\characterObserver.h" />
+    <ClInclude Include="player\characterStat.h" />
+    <ClInclude Include="player\characterStrategy.h" />
+    <ClInclude Include="player\characterType.h" />
+    <ClInclude Include="player\concreteCharacterObserver.h" />
+    <ClInclude Include="player\fighter.h" />
+    <!--Builer -->
+    <ClInclude Include="resource.h" />
+    <!--Strategy -->
+    <ClInclude Include="player\humanCharacterStrategy.h" />
+    <ClInclude Include="subject.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="battle.cpp" />
+    <ClCompile Include="campaign.cpp" />
+    <ClCompile Include="CharacterDirector.cpp" />
+    <ClCompile Include="dice.cpp" />
+    <ClCompile Include="driver.cpp" />
+    <ClCompile Include="FighterType.cpp" />
+    <ClCompile Include="globalFunctions.cpp" />
+    <ClCompile Include="itemContainer.cpp" />
+    <ClCompile Include="items\armor.cpp" />
+    <ClCompile Include="items\belt.cpp" />
+    <ClCompile Include="items\boots.cpp" />
+    <ClCompile Include="items\helmet.cpp" />
+    <ClCompile Include="items\item.cpp" />
+    <ClCompile Include="items\itemIO.cpp" />
+    <ClCompile Include="items\ring.cpp" />
+    <ClCompile Include="items\shield.cpp" />
+    <ClCompile Include="items\weapon.cpp" />
+    <ClCompile Include="logger\logger.cpp" />
+    <ClCompile Include="logger\loggerObserver.cpp" />
+    <ClCompile Include="map\grid.cpp" />
+    <ClCompile Include="map\gridController.cpp" />
+    <ClCompile Include="map\playerController.cpp" />
+    <ClCompile Include="map\tile.cpp" />
+    <ClCompile Include="npc\attackNpcStrategy.cpp" />
+    <ClCompile Include="npc\defensiveNpcStrategy.cpp" />
+    <ClCompile Include="npc\friendlyNpcStrategy.cpp" />
+    <ClCompile Include="npc\npcController.cpp" />
+    <ClCompile Include="play.cpp" />
+    <ClCompile Include="player\character.cpp" />
+    <ClCompile Include="player\CharacterBuilder.cpp" />
+    <ClCompile Include="player\characterStat.cpp" />
+    <ClCompile Include="player\concreteCharacterObserver.cpp" />
+    <ClCompile Include="Player\Customizable\CharacterIO.cpp" />
+    <ClCompile Include="Player\Customizable\CharacterIO.h" />
+    <ClCompile Include="player\fighter.cpp" />
+    <ClCompile Include="player\humanCharacterStrategy.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="docs\AdvancedCGame.doxyfile" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="AdvancedCGame.rc" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

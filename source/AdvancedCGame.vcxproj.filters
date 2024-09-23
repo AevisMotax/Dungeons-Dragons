@@ -1,0 +1,339 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\Map">
+      <UniqueIdentifier>{d5d79108-6440-41c6-93c4-be0eb351cd5b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Map">
+      <UniqueIdentifier>{bda7151a-18f0-4667-9f9f-a13795ac2dd7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Player">
+      <UniqueIdentifier>{0a418dbe-856a-4649-b40f-5260e69f030e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Player">
+      <UniqueIdentifier>{10d4a96e-f8f5-4f7f-b1d6-da046fe1b2d3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Items">
+      <UniqueIdentifier>{3aac47d7-251b-47e7-bf62-0d208c3f88d4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Items">
+      <UniqueIdentifier>{8abfe1d6-30fb-41ad-ba6d-1eb516c8851e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\dice">
+      <UniqueIdentifier>{c207eb86-ee09-4add-9c5e-580d70cc99a9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\dice">
+      <UniqueIdentifier>{fa217da9-ae2c-4546-bc38-e6ac1da11126}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Documentation">
+      <UniqueIdentifier>{24ec43ed-87af-44c2-ad67-8e5565aa1449}</UniqueIdentifier>
+    </Filter>
+    <!-- Builder-->
+    <Filter Include="Header Files\PlayerGenre">
+      <UniqueIdentifier>{41e46bf0-7968-41b9-b191-c0f6ab552690}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\PlayerGenre">
+      <UniqueIdentifier>{05a5597b-b1f9-403f-a263-c9b82bdb761f}</UniqueIdentifier>
+    </Filter>
+    <!-- <Filter Include="Header Files\GameLogger">
+      <UniqueIdentifier>{78f5286e-dfc8-43d8-9e03-329c589d89d6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\GameLogger">
+      <UniqueIdentifier>{56f5f63d-7f29-49b7-939f-58eab6810504}</UniqueIdentifier> -->
+    <Filter Include="Source Files\Npc">
+      <UniqueIdentifier>{5b99878e-5a9c-476f-b35e-aa7a7bfc2129}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Npc">
+      <UniqueIdentifier>{2da028f2-9739-4263-8f12-55270d34541a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Player\Customizable">
+      <UniqueIdentifier>{f47c637c-1cbd-4020-b066-3ddbe6832cee}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Player\Customizable">
+      <UniqueIdentifier>{e76303a3-2ea9-4309-bc06-ae783f448f2d}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="player\character.h">
+      <Filter>Header Files\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="player\characterType.h">
+      <Filter>Header Files\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="player\fighter.h">
+      <Filter>Header Files\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="map\grid.h">
+      <Filter>Header Files\Map</Filter>
+    </ClInclude>
+    <ClInclude Include="map\tile.h">
+      <Filter>Header Files\Map</Filter>
+    </ClInclude>
+    <ClInclude Include="battle.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="items\armor.h">
+      <Filter>Header Files\Items</Filter>
+    </ClInclude>
+    <ClInclude Include="items\belt.h">
+      <Filter>Header Files\Items</Filter>
+    </ClInclude>
+    <ClInclude Include="items\boots.h">
+      <Filter>Header Files\Items</Filter>
+    </ClInclude>
+    <ClInclude Include="items\helmet.h">
+      <Filter>Header Files\Items</Filter>
+    </ClInclude>
+    <ClInclude Include="items\item.h">
+      <Filter>Header Files\Items</Filter>
+    </ClInclude>
+    <ClInclude Include="items\ring.h">
+      <Filter>Header Files\Items</Filter>
+    </ClInclude>
+    <ClInclude Include="items\shield.h">
+      <Filter>Header Files\Items</Filter>
+    </ClInclude>
+    <ClInclude Include="items\weapon.h">
+      <Filter>Header Files\Items</Filter>
+    </ClInclude>
+    <ClInclude Include="dice.h">
+      <Filter>Header Files\dice</Filter>
+    </ClInclude>
+    <ClInclude Include="itemContainer.h">
+      <Filter>Header Files\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="player\characterStat.h">
+      <Filter>Header Files\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="play.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="campaign.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="globalFunctions.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="player\characterObserver.h">
+      <Filter>Header Files\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="player\concreteCharacterObserver.h">
+      <Filter>Header Files\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="map\GridObserver.h">
+      <Filter>Header Files\Map</Filter>
+    </ClInclude>
+    <ClInclude Include="observer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="subject.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="map\gridObserver.h">
+      <Filter>Header Files\Map</Filter>
+    </ClInclude>
+    <ClInclude Include="map\GridObserver.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <!--Builder -->
+    <ClInclude Include="player\CharacterBuilder.h">
+      <Filter>Header Files\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="FighterType.h">
+      <Filter>Header Files\PlayerGenre</Filter>
+    </ClInclude>
+    <ClInclude Include="Player\Attribute.h">
+      <Filter>Header Files\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="CharacterDirector.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <!--=======-->
+    <ClInclude Include="npc\attackNpcStrategy.h">
+      <Filter>Header Files\Npc</Filter>
+    </ClInclude>
+    <ClInclude Include="npc\friendlyNpcStrategy.h">
+      <Filter>Header Files\Npc</Filter>
+    </ClInclude>
+    <ClInclude Include="npc\npcController.h">
+      <Filter>Header Files\Npc</Filter>
+    </ClInclude>
+    <ClInclude Include="npc\npcStrategy.h">
+      <Filter>Header Files\Npc</Filter>
+    </ClInclude>
+    <ClInclude Include="map\playerController.h">
+      <Filter>Header Files\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="player\characterStrategy.h">
+      <Filter>Header Files\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="player\humanCharacterStrategy.h">
+      <Filter>Header Files\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="logger\logger.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="logger\loggerObserver.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="items\itemIO.h">
+      <Filter>Header Files\Items</Filter>
+    </ClInclude>
+    <ClInclude Include="npc\defensiveNpcStrategy.h">
+      <Filter>Header Files\Npc</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="driver.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="player\character.cpp">
+      <Filter>Source Files\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="player\fighter.cpp">
+      <Filter>Source Files\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="map\grid.cpp">
+      <Filter>Source Files\Map</Filter>
+    </ClCompile>
+    <ClCompile Include="map\tile.cpp">
+      <Filter>Source Files\Map</Filter>
+    </ClCompile>
+    <ClCompile Include="battle.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="items\armor.cpp">
+      <Filter>Source Files\Items</Filter>
+    </ClCompile>
+    <ClCompile Include="items\belt.cpp">
+      <Filter>Source Files\Items</Filter>
+    </ClCompile>
+    <ClCompile Include="items\boots.cpp">
+      <Filter>Source Files\Items</Filter>
+    </ClCompile>
+    <ClCompile Include="items\helmet.cpp">
+      <Filter>Source Files\Items</Filter>
+    </ClCompile>
+    <ClCompile Include="items\item.cpp">
+      <Filter>Source Files\Items</Filter>
+    </ClCompile>
+    <ClCompile Include="items\ring.cpp">
+      <Filter>Source Files\Items</Filter>
+    </ClCompile>
+    <ClCompile Include="items\shield.cpp">
+      <Filter>Source Files\Items</Filter>
+    </ClCompile>
+    <ClCompile Include="items\weapon.cpp">
+      <Filter>Source Files\Items</Filter>
+    </ClCompile>
+    <ClCompile Include="dice.cpp">
+      <Filter>Source Files\dice</Filter>
+    </ClCompile>
+    <ClCompile Include="itemContainer.cpp">
+      <Filter>Source Files\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="player\characterStat.cpp">
+      <Filter>Source Files\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="play.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="campaign.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="globalFunctions.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="player\concreteCharacterObserver.cpp">
+      <Filter>Source Files\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="map\gridController.cpp">
+      <Filter>Source Files\Map</Filter>
+    </ClCompile>
+    <ClCompile Include="map\gridController.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <!--<<<<<<< CharacterBuilder-->
+    <ClCompile Include="player\CharacterBuilder.cpp">
+      <Filter>Source Files\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="FighterType.cpp">
+      <Filter>Source Files\PlayerGenre</Filter>
+    </ClCompile>
+    <!--<ClCompile Include="GameLogger\LoggerObserver.h">
+      <Filter>Header Files\GameLogger</Filter>
+    </ClCompile>
+    <ClCompile Include="GameLogger.cpp">
+      <Filter>Source Files\GameLogger</Filter>
+    </ClCompile>
+    <ClCompile Include="GameLogger\GameController.cpp">
+      <Filter>Source Files\GameLogger</Filter>
+    </ClCompile>
+    <ClCompile Include="GameLog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>-->
+    <ClCompile Include="CharacterDirector.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <!--<ClCompile Include="Player\Attribute.cpp">-->
+    <!--=======-->
+    <ClCompile Include="npc\attackNpcStrategy.cpp">
+      <Filter>Source Files\Npc</Filter>
+    </ClCompile>
+    <ClCompile Include="npc\friendlyNpcStrategy.cpp">
+      <Filter>Source Files\Npc</Filter>
+    </ClCompile>
+    <ClCompile Include="npc\npcController.cpp">
+      <Filter>Source Files\Npc</Filter>
+    </ClCompile>
+    <ClCompile Include="map\playerController.cpp">
+      <Filter>Source Files\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="player\humanCharacterStrategy.cpp">
+      <Filter>Source Files\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="logger\logger.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="logger\loggerObserver.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="items\itemIO.cpp">
+      <Filter>Source Files\Items</Filter>
+    </ClCompile>
+    <ClCompile Include="npc\defensiveNpcStrategy.cpp">
+      <Filter>Source Files\Npc</Filter>
+    </ClCompile>
+    <ClCompile Include="Player\Customizable\CharacterIO.h">
+      <Filter>Header Files\Player\Customizable</Filter>
+    </ClCompile>
+    <ClCompile Include="Player\Customizable\CharacterIO.cpp">
+      <Filter>Source Files\Player\Customizable</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="docs\AdvancedCGame.doxyfile">
+      <Filter>Documentation</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="AdvancedCGame.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>
