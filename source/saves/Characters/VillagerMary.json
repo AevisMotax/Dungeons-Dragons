@@ -1,0 +1,19 @@
+{
+    "armorClass": 6,
+    "attackBonus": -6,
+    "characterClass": 2,
+    "charisma": 3,
+    "constitution": 1,
+    "damageBonus": -4,
+    "dexterity": 1,
+    "exp_Points": 0,
+    "gender": "Female",
+    "hitpoints": 3,
+    "intelligence": 1,
+    "level": 1,
+    "name": "MaryTheVillager",
+    "rounds": 1,
+    "strategy": "This village was a nice place before those miners came into town.",
+    "strength": 1,
+    "wisdom": 5
+}

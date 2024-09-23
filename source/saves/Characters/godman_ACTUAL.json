@@ -1,0 +1,19 @@
+{
+    "armorClass": 13,
+    "attackBonus": 15,
+    "characterClass": 2,
+    "charisma": 14,
+    "constitution": 5,
+    "damageBonus": 15,
+    "dexterity": 16,
+    "exp_Points": 0,
+    "gender": "Female",
+    "hitpoints": 1000,
+    "intelligence": 8,
+    "level": 1,
+    "name": "godman",
+    "rounds": 1,
+    "strategy": "defensive",
+    "strength": 8,
+    "wisdom": 9
+}

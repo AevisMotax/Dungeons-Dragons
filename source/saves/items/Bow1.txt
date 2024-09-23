@@ -1,0 +1,5 @@
+Bow1
+Weapon
+Bow
+AttackBonus
+4

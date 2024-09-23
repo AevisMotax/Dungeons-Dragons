@@ -1,0 +1,19 @@
+{
+    "armorClass": 8,
+    "attackBonus": 2,
+    "characterClass": 2,
+    "charisma": 21,
+    "constitution": 12,
+    "damageBonus": 2,
+    "dexterity": 6,
+    "exp_Points": 0,
+    "gender": "Female",
+    "hitpoints": 18,
+    "intelligence": 15,
+    "level": 1,
+    "name": "WarningLady",
+    "rounds": 1,
+    "strategy": "Don't go this way they'll kill you! Head north east Mandy will help you avoid this dangerous path.",
+    "strength": 15,
+    "wisdom": 27
+}

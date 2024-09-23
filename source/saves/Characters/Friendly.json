@@ -1,0 +1,19 @@
+{
+    "armorClass": 13,
+    "attackBonus": 19,
+    "characterClass": 2,
+    "charisma": 65,
+    "constitution": 29,
+    "damageBonus": 14,
+    "dexterity": 17,
+    "exp_Points": 0,
+    "gender": "Male",
+    "hitpoints": 32,
+    "intelligence": 38,
+    "level": 1,
+    "name": "Mr.Friendly",
+    "rounds": 1,
+    "strategy": "Welcome to the mountain traveler. Be careful not everyone is friendly like me!",
+    "strength": 38,
+    "wisdom": 76
+}

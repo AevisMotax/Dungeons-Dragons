@@ -1,0 +1,4 @@
+GloryShield
+Shield
+ArmorClass
+8

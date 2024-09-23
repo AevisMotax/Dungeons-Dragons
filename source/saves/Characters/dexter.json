@@ -1,0 +1,19 @@
+{
+    "armorClass": 10,
+    "attackBonus": 2,
+    "characterClass": 2,
+    "charisma": 9,
+    "constitution": 12,
+    "damageBonus": 0,
+    "dexterity": 11,
+    "exp_Points": 0,
+    "gender": "Male",
+    "hitpoints": 16,
+    "intelligence": 9,
+    "level": 1,
+    "name": "dexter",
+    "rounds": 1,
+    "strategy": "defensive",
+    "strength": 9,
+    "wisdom": 7
+}

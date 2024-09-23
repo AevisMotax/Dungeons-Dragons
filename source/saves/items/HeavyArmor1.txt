@@ -1,0 +1,5 @@
+HeavyArmor1
+Armor
+Light
+ArmorClass
+5

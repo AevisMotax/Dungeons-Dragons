@@ -1,0 +1,19 @@
+{
+    "armorClass": 9,
+    "attackBonus": 2,
+    "characterClass": 2,
+    "charisma": 16,
+    "constitution": 9,
+    "damageBonus": 1,
+    "dexterity": 7,
+    "exp_Points": 0,
+    "gender": "Female",
+    "hitpoints": 10,
+    "intelligence": 12,
+    "level": 1,
+    "name": "Donna",
+    "rounds": 1,
+    "strategy": "I hear if you look around you might find a bow or sceptor in a chest like this.",
+    "strength": 12,
+    "wisdom": 23
+}

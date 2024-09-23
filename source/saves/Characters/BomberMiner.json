@@ -1,0 +1,19 @@
+{
+    "armorClass": 7,
+    "attackBonus": 0,
+    "characterClass": 2,
+    "charisma": 18,
+    "constitution": 8,
+    "damageBonus": 1,
+    "dexterity": 3,
+    "exp_Points": 0,
+    "gender": "Male",
+    "hitpoints": 13,
+    "intelligence": 12,
+    "level": 1,
+    "name": "BomberMiner",
+    "rounds": 1,
+    "strategy": "aggresive",
+    "strength": 12,
+    "wisdom": 21
+}

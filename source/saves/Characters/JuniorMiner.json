@@ -1,0 +1,19 @@
+{
+    "armorClass": 9,
+    "attackBonus": -2,
+    "characterClass": 1,
+    "charisma": 14,
+    "constitution": 6,
+    "damageBonus": -3,
+    "dexterity": 8,
+    "exp_Points": 0,
+    "gender": "Male",
+    "hitpoints": 7,
+    "intelligence": 4,
+    "level": 1,
+    "name": "JuniorMiner",
+    "rounds": 1,
+    "strategy": "defensive",
+    "strength": 4,
+    "wisdom": 16
+}

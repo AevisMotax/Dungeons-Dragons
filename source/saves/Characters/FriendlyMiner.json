@@ -1,0 +1,19 @@
+{
+    "armorClass": 6,
+    "attackBonus": -6,
+    "characterClass": 1,
+    "charisma": 1,
+    "constitution": 1,
+    "damageBonus": -4,
+    "dexterity": 1,
+    "exp_Points": 0,
+    "gender": "Male",
+    "hitpoints": 8,
+    "intelligence": 1,
+    "level": 1,
+    "name": "NicerMiner",
+    "rounds": 1,
+    "strategy": "Don't come in here punk us miners aren't to nice to strangers",
+    "strength": 1,
+    "wisdom": 1
+}

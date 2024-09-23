@@ -1,0 +1,13 @@
+ O N N N N N N N N N
+ N N N N N N N N N N
+ N N H N N N N N N N
+ N N N N N N N N N N
+ N N N N N N N N N N
+ N N N N N N N N N N
+ N N N N N N N N N N
+ N N N N N N N N N N
+ N N N N N N N N N N
+ N N N N N N N N NXN
+Npcs:
+Chests:
+Bow1.txt

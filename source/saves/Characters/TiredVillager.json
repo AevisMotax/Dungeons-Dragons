@@ -1,0 +1,19 @@
+{
+    "armorClass": 6,
+    "attackBonus": -6,
+    "characterClass": 2,
+    "charisma": 3,
+    "constitution": 1,
+    "damageBonus": -4,
+    "dexterity": 2,
+    "exp_Points": 0,
+    "gender": "Male",
+    "hitpoints": 11,
+    "intelligence": 2,
+    "level": 1,
+    "name": "TiredVillager",
+    "rounds": 1,
+    "strategy": "Things haven't been great lately.",
+    "strength": 2,
+    "wisdom": 5
+}

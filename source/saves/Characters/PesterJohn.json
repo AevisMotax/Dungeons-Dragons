@@ -1,0 +1,19 @@
+{
+    "armorClass": 6,
+    "attackBonus": -4,
+    "characterClass": 2,
+    "charisma": 11,
+    "constitution": 4,
+    "damageBonus": -2,
+    "dexterity": 1,
+    "exp_Points": 0,
+    "gender": "Male",
+    "hitpoints": 5,
+    "intelligence": 5,
+    "level": 1,
+    "name": "PesterJohn",
+    "rounds": 1,
+    "strategy": "aggresive",
+    "strength": 5,
+    "wisdom": 15
+}

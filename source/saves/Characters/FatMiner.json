@@ -1,0 +1,19 @@
+{
+    "armorClass": 32,
+    "attackBonus": 26,
+    "characterClass": 1,
+    "charisma": 93,
+    "constitution": 37,
+    "damageBonus": 2,
+    "dexterity": 54,
+    "exp_Points": 0,
+    "gender": "Male",
+    "hitpoints": 39,
+    "intelligence": 15,
+    "level": 1,
+    "name": "FatMiner",
+    "rounds": 1,
+    "strategy": "defensive",
+    "strength": 15,
+    "wisdom": 103
+}

@@ -1,0 +1,5 @@
+MediumArmor1
+Armor
+Light
+ArmorClass
+4

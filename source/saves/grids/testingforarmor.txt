@@ -1,0 +1,11 @@
+ O N N N H N N N
+ N N N N N N N N
+MN N N~N N N N N
+MN N~NMN N N N N
+ N N N N N N N N
+ NMN NMN N N N N
+ N N~N N N N N N
+ N N N N N N NXN
+Npcs:
+Chests:
+HeavyArmor.txt

@@ -1,0 +1,19 @@
+{
+    "armorClass": 11,
+    "attackBonus": 5,
+    "characterClass": 2,
+    "charisma": 16,
+    "constitution": 12,
+    "damageBonus": 2,
+    "dexterity": 13,
+    "exp_Points": 0,
+    "gender": "Male",
+    "hitpoints": 19,
+    "intelligence": 15,
+    "level": 1,
+    "name": "marcus",
+    "rounds": 1,
+    "strategy": "defensive",
+    "strength": 15,
+    "wisdom": 15
+}

@@ -1,0 +1,19 @@
+{
+    "armorClass": 9,
+    "attackBonus": 5,
+    "characterClass": 2,
+    "charisma": 30,
+    "constitution": 10,
+    "damageBonus": 4,
+    "dexterity": 7,
+    "exp_Points": 0,
+    "gender": "Female",
+    "hitpoints": 17,
+    "intelligence": 18,
+    "level": 1,
+    "name": "Mandy",
+    "rounds": 1,
+    "strategy": "Hey I'm Mandy. I use hooks to get from island to island here. Feel free to take one. Use 'I' to equip it and 'WASD' to grapple to a mountain.",
+    "strength": 18,
+    "wisdom": 38
+}
